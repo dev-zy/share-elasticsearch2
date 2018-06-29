@@ -1,11 +1,11 @@
-package com.ucloudlink.css.common;
+package com.devzy.share.common;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-import com.ucloudlink.css.elasticsearch.http.ElasticsearchExtendHttpFactory;
-import com.ucloudlink.css.elasticsearch.transport.ElasticsearchExtendTransportFactory;
-import com.ucloudlink.css.util.StringUtil;
+import com.devzy.share.elasticsearch.http.ElasticsearchExtendHttpFactory;
+import com.devzy.share.elasticsearch.transport.ElasticsearchExtendTransportFactory;
+import com.devzy.share.util.StringUtil;
 /**
  * 描述: Elasticsearch初始化实例
  * 时间: 2018年1月9日 上午11:18:20

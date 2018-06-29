@@ -1,4 +1,4 @@
-package com.ucloudlink.css.elasticsearch.http;
+package com.devzy.share.elasticsearch.http;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -7,8 +7,8 @@ import java.util.Map;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.ucloudlink.css.util.HttpUtil;
-import com.ucloudlink.css.util.StringUtil;
+import com.devzy.share.util.HttpUtil;
+import com.devzy.share.util.StringUtil;
 
 public class ElasticsearchExtendHttpFactory extends ElasticsearchHttpFactory{
 	public ElasticsearchExtendHttpFactory() {

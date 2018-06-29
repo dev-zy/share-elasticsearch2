@@ -1,4 +1,4 @@
-package com.ucloudlink.css.elasticsearch.http;
+package com.devzy.share.elasticsearch.http;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -10,9 +10,9 @@ import org.elasticsearch.common.Strings;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.ucloudlink.css.elasticsearch.AbstractElasticsearchFactory;
-import com.ucloudlink.css.util.HttpUtil;
-import com.ucloudlink.css.util.StringUtil;
+import com.devzy.share.elasticsearch.AbstractElasticsearchFactory;
+import com.devzy.share.util.HttpUtil;
+import com.devzy.share.util.StringUtil;
 
 public class ElasticsearchHttpFactory extends AbstractElasticsearchFactory{
 	private static Logger logger = LogManager.getLogger(ElasticsearchHttpFactory.class);

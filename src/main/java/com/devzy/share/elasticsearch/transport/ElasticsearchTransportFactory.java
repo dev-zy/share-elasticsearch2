@@ -1,4 +1,4 @@
-package com.ucloudlink.css.elasticsearch.transport;
+package com.devzy.share.elasticsearch.transport;
 
 import java.io.IOException;
 import java.net.InetAddress;
@@ -43,8 +43,8 @@ import org.elasticsearch.search.warmer.IndexWarmersMetaData;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.carrotsearch.hppc.cursors.ObjectCursor;
-import com.ucloudlink.css.elasticsearch.AbstractElasticsearchFactory;
-import com.ucloudlink.css.util.StringUtil;
+import com.devzy.share.elasticsearch.AbstractElasticsearchFactory;
+import com.devzy.share.util.StringUtil;
 
 public class ElasticsearchTransportFactory extends AbstractElasticsearchFactory{
 	private static Logger logger = LogManager.getLogger(ElasticsearchTransportFactory.class);

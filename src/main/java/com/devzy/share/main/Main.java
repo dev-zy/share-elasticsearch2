@@ -1,4 +1,4 @@
-package com.ucloudlink.css.main;
+package com.devzy.share.main;
 
 import java.util.Date;
 import java.util.Random;
@@ -12,11 +12,11 @@ import org.elasticsearch.common.Strings;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.ucloudlink.css.common.ElasticsearchSingleton;
-import com.ucloudlink.css.elasticsearch.http.ElasticsearchExtendHttpFactory;
-import com.ucloudlink.css.elasticsearch.transport.ElasticsearchExtendTransportFactory;
-import com.ucloudlink.css.util.DateUtil;
-import com.ucloudlink.css.util.NumberUtil;
+import com.devzy.share.common.ElasticsearchSingleton;
+import com.devzy.share.elasticsearch.http.ElasticsearchExtendHttpFactory;
+import com.devzy.share.elasticsearch.transport.ElasticsearchExtendTransportFactory;
+import com.devzy.share.util.DateUtil;
+import com.devzy.share.util.NumberUtil;
 
 public class Main {
 	private static Logger logger = LogManager.getLogger(Main.class);

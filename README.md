@@ -1,26 +1,26 @@
-# css-elasticsearch
-关于Elasticsearch老版本v2.4.6中jar依赖与业务项目jar包的冲突的完美解决，并扩展HTTP、Transport接口
+# share-elasticsearch
+锟斤拷锟斤拷Elasticsearch锟较版本v2.4.6锟斤拷jar锟斤拷锟斤拷锟斤拷业锟斤拷锟斤拷目jar锟斤拷锟侥筹拷突锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟秸笻TTP锟斤拷Transport锟接匡拷
 
-解决一下jar包冲突：
+锟斤拷锟揭伙拷锟絡ar锟斤拷锟斤拷突锟斤拷
 ```
 1.log4j
 2.jackson
-3.io.netty以及jboss.netty
+3.io.netty锟皆硷拷jboss.netty
 4.fastjson
 ```
-## 使用方式：
+## 使锟矫凤拷式锟斤拷
 
-1. Maven配置
+1. Maven锟斤拷锟斤拷
 ------------
 ```xml
 <dependency>
-    <groupId>com.ucloudlink.css</groupId>
-    <artifactId>css-elasticsearch</artifactId>
+    <groupId>com.devzy.share</groupId>
+    <artifactId>share-elasticsearch</artifactId>
     <version>2.4.6</version>
 </dependency>
 ```
 
-2.业务集成重写common/ElasticsearchSingleton.java即可
+2.业锟今集筹拷锟斤拷写common/ElasticsearchSingleton.java锟斤拷锟斤拷
 -------------------------------------
 3.ES Version VS Log4j Vesion
 ----------------------------

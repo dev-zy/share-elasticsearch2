@@ -5,11 +5,11 @@
 		<artifactId>oss-parent</artifactId>
 		<version>9</version>
 	</parent>
-	<groupId>com.ucloudlink.css</groupId>
-	<artifactId>css-elasticsearch</artifactId>
+	<groupId>com.devzy.share</groupId>
+	<artifactId>share-elasticsearch</artifactId>
 	<version>2.4.6</version>
-	<name>css-elasticsearch</name>
-	<description>css-elasticsearch</description>
+	<name>share-elasticsearch</name>
+	<description>share-elasticsearch</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -27,15 +27,15 @@
 		</license>
 	</licenses>
 	<scm>
-		<url>https://github.com/dev-share/css-elasticsearch</url>
-		<connection>scm:git:git@github.com:dev-share/css-elasticsearch.git</connection>
-		<developerConnection>scm:git:git@github.com:dev-share/css-elasticsearch.git</developerConnection>
+		<url>https://github.com/dev-share/share-elasticsearch</url>
+		<connection>scm:git:git@github.com:dev-share/share-elasticsearch.git</connection>
+		<developerConnection>scm:git:git@github.com:dev-share/share-elasticsearch.git</developerConnection>
 	</scm>
 	<developers>
 		<developer>
 			<name>Kervin</name>
 			<email>yi.zhang@ucloudlink.com</email>
-			<url>https://github.com/dev-share/css-elasticsearch</url>
+			<url>https://github.com/dev-share/share-elasticsearch</url>
 		</developer>
 	</developers>
 	<dependencies>

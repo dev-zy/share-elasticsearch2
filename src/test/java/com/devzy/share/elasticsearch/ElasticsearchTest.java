@@ -1,4 +1,4 @@
-package com.ucloudlink.css.elasticsearch;
+package com.devzy.share.elasticsearch;
 
 import java.util.Date;
 
@@ -7,9 +7,9 @@ import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.xcontent.XContentType;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ucloudlink.css.common.ElasticsearchSingleton;
-import com.ucloudlink.css.elasticsearch.http.ElasticsearchHttpFactory;
-import com.ucloudlink.css.elasticsearch.transport.ElasticsearchTransportFactory;
+import com.devzy.share.common.ElasticsearchSingleton;
+import com.devzy.share.elasticsearch.http.ElasticsearchHttpFactory;
+import com.devzy.share.elasticsearch.transport.ElasticsearchTransportFactory;
 
 public class ElasticsearchTest {
 	private static ElasticsearchTransportFactory tfactory = ElasticsearchSingleton.getIntance().transportES();

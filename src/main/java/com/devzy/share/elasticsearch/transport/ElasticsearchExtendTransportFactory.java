@@ -1,4 +1,4 @@
-package com.ucloudlink.css.elasticsearch.transport;
+package com.devzy.share.elasticsearch.transport;
 
 import java.util.Date;
 import java.util.List;
@@ -16,7 +16,7 @@ import org.elasticsearch.search.sort.SortBuilders;
 import org.elasticsearch.search.sort.SortOrder;
 
 import com.alibaba.fastjson.JSON;
-import com.ucloudlink.css.util.StringUtil;
+import com.devzy.share.util.StringUtil;
 
 public class ElasticsearchExtendTransportFactory extends ElasticsearchTransportFactory{
 	public ElasticsearchExtendTransportFactory() {
